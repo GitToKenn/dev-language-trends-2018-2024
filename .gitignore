@@ -1,0 +1,5 @@
+# Ignore only RAW data files
+data/raw/*.xls
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.7z
