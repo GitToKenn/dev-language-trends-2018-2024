@@ -3,3 +3,4 @@ data/raw/*.xls
 data/raw/*.csv
 data/raw/*.zip
 data/raw/*.7z
+notebook/.ipynb_checkpoints/
