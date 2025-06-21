@@ -20,6 +20,7 @@ This project explores the usage trends of programming languages over time using 
 ## 🗂️ Project Structure
 
 - [README.md](README.md) – Project overview and documentation  
+- [language_insights_report.md](language_insights_report.md) – Final report with key findings and chart visuals  
 - [data/](data/) – Dataset files  
   - *(Raw dataset excluded from repo — see License section)*  
   - [`all_languages_2018_2024_cleaned_2025-06-14.xls`](data/cleaned/all_languages_2018_2024_cleaned_2025-06-14.xls) ← Cleaned dataset  
@@ -27,8 +28,9 @@ This project explores the usage trends of programming languages over time using 
 - [notebook/](notebook/) – Analysis notebooks  
   - [`01_data_cleaning.ipynb`](notebook/01_data_cleaning.ipynb) ← Raw dataset wrangling and preparation  
   - [`02_language_trend_analysis.ipynb`](notebook/02_language_trend_analysis.ipynb) ← Chart creation and percentage table  
-  - [`03_insights_and_key_findings.ipynb`](notebook/03_insights_and_key_findings.ipynb) ← Commentary and interpretation notebook  
+  - [`03_insights_and_key_findings.ipynb`](notebook/03_insights_and_key_findings.ipynb) ← Commentary and exploratory notes (not final report)  
 - [.gitignore](.gitignore) – Tracks excluded files and temporary system artifacts  
+
 
 --- 
 
@@ -37,17 +39,18 @@ This project explores the usage trends of programming languages over time using 
 ```
 root/
 ├── README.md ← Project overview and documentation
+├── language_insights_report.md – Final report with visual insights and key findings
 ├── .gitignore
 ├── data/
-│ ├── cleaned/
-│ │ └── all_languages_2018_2024_cleaned_2025-06-14.xls ← Cleaned dataset
-│ └── raw/ (excluded from repo)
+│   ├── cleaned/
+│   │   └── all_languages_2018_2024_cleaned_2025-06-14.xls ← Cleaned dataset
+│   └── raw/ (excluded from repo)
 ├── chart/ ← Visual outputs from analysis notebooks
-│ └── *.png ← Exported figures (see list below)
+│   └── *.png ← Exported figures (Chart 01–09)
 ├── notebook/
-│ ├── 01_data_cleaning.ipynb ← Initial raw data wrangling
-│ ├── 02_language_trend_analysis.ipynb ← Chart generation + trends
-│ └── 03_insights_and_key_findings.ipynb ← Final interpretation
+│   ├── 01_data_cleaning.ipynb ← Initial raw data wrangling
+│   ├── 02_language_trend_analysis.ipynb ← Chart generation + trends
+│   └── 03_insights_and_key_findings.ipynb ← In-notebook commentary (not the main report)
 ```
 ---
 
@@ -130,10 +133,11 @@ This prevented double-counting and ensured accurate year-over-year comparisons.
 
 ## ✨ Recent Additions
 
-- ✅ Added insights and interpretations in `03_insights_and_key_findings.ipynb`
-- ✅ Exported charts as high-resolution PNGs for GitHub and report use
-- ✅ Added analyst-focused trend summary (Python, SQL, R)
-- ✅ Investigated SAS anomaly, added certificate context
+- ✅ Added `language_insights_report.md` as the main analyst report (migrated from Notebook 3)
+- ✅ Exported charts as high-resolution PNGs for GitHub and reporting
+- ✅ Summarised top language trends, including Python, SQL, and R movements
+- ✅ Investigated SAS anomaly with explanation and certificate context
+- ✅ Updated folder structure, README, and internal links for consistency
 
 ---
 
