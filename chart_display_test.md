@@ -29,8 +29,8 @@ Each chart includes a **dedicated commentary**, and **colour consistency** is ma
 ## a. Most Used in 2024 (by Count & Percentage)
 
 <div style="display: flex; justify-content: space-around; gap: 40px;">
-    <img src="../chart/chart_01_most_used_by_count_2025-06-20_13-56-21.png" width="700">
-    <img src="../chart/chart_02_most_used_by_percentage_2025-06-20_13-56-21.png" width="700">
+    <img src="chart/chart_01_most_used_by_count_2025-06-20_13-56-21.png" width="700">
+    <img src="chart/chart_02_most_used_by_percentage_2025-06-20_13-56-21.png" width="700">
 </div>
 
 **JavaScript** continues to dominate as the most widely used programming language in 2024, both by **developer count** and **percentage of mentions**, reinforcing its central role in **full-stack** and **frontend development**. **HTML/CSS** and **Python** follow closely, demonstrating their persistent relevance in **web development** and **data science**, respectively.  
@@ -44,7 +44,7 @@ Notably, the **"Others"** category leads in percentage mentions, suggesting a **
 ## b. Trends Across All Languages (2018–2024)
 
 <div style="display: flex; justify-content: space-around; gap: 40px;">
-  <img src="../chart/chart_03_percentage_trends_top10_2025-06-20_13-56-21.png" width="1000">
+  <img src="chart/chart_03_percentage_trends_top10_2025-06-20_13-56-21.png" width="1000">
 </div>
 
 **Interpretation**  
@@ -65,8 +65,8 @@ Overall, the chart illustrates how certain languages (e.g., Python, TypeScript) 
 ## c. 	Top 5 Languages: Stability & Competition
 
 <div style="display: flex; justify-content: space-around; gap: 40px;">
-  <img src="../chart/chart_04_percentage_trends_top5_avg_2025-06-20_13-56-21.png" width="700">
-  <img src="../chart/chart_05_percentage_trends_top5_2025-06-20_13-56-21.png" width="700">
+  <img src="chart/chart_04_percentage_trends_top5_avg_2025-06-20_13-56-21.png" width="700">
+  <img src="chart/chart_05_percentage_trends_top5_2025-06-20_13-56-21.png" width="700">
 </div>
 
 **Interpretation**  
@@ -86,7 +86,7 @@ Together, these five languages reveal an industry landscape that rewards both ve
 ## d. Niche Movements & Fossilised Languages
 
 <div style="display: flex; justify-content: space-around; gap: 40px;">
-  <img src="../chart/chart_09_python_sql_vs_r_trends_2025-06-20_13-56-21.png" width="1000">
+  <img src="chart/chart_09_python_sql_vs_r_trends_2025-06-20_13-56-21.png" width="1000">
 </div>
 
 ### 🧠 **Analytical Tools: Python & SQL Rise, While R Declines**
@@ -104,8 +104,8 @@ Together, these five languages reveal an industry landscape that rewards both ve
 ---
 
 <div style="display: flex; justify-content: space-around; gap: 40px;">
-  <img src="../chart/chart_08_declining_top10_2025-06-20_13-56-21.png" width="700">
-  <img src="../chart/chart_07_declining_top5_2025-06-20_13-56-21.png" width="700">
+  <img src="chart/chart_08_declining_top10_2025-06-20_13-56-21.png" width="700">
+  <img src="chart/chart_07_declining_top5_2025-06-20_13-56-21.png" width="700">
 </div>
 
 ### 🕰️ **Fossilised Languages: Gradual Decline Across the Board**
@@ -119,7 +119,7 @@ This pattern underscores how **developer ecosystems evolve**, often phasing out 
 ---
 
 <div style="display: flex; justify-content: center; gap: 40px;">
-  <img src="../chart/chart_06_sas_rise_and_fall_2025-06-20_13-56-21.png" width="700">
+  <img src="chart/chart_06_sas_rise_and_fall_2025-06-20_13-56-21.png" width="700">
 </div>
 
 ### 📉 Emergence and Decline of SAS (2018–2024)
