@@ -2,8 +2,9 @@
 
 This project explores the usage trends of programming languages over time using the Stack Overflow Developer Surveys from 2018 to 2024. It focuses on data cleaning, multi-valued categorical transformation, and visual storytelling using Python and pandas.
 
-🛠️ **Status**: first version completed 
-🔒 **Repo**: Private (for now)
+🔗 **Featured on LinkedIn**: [View Post](https://www.linkedin.com/posts/syifa-alia-balqis_dataanalytics-programmingtrends-languagetrends-activity-7343273416835088384-srW6?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADnQ7pMBVWGhjXpj9_dswWCCHQQgDVd7MLo)  
+🛠️ **Status**: first version completed\
+🔒 **Repo**: Public
 
 ---
 
@@ -116,6 +117,7 @@ root/
   - Trimmed whitespace and standardised language names for consistency  
   - Added `Year` column and generated a unique `GlobalRespondentID` per entry  
 - Concatenated all seven years into a unified DataFrame for trend analysis
+- **Calculated yearly language popularity** by normalising total language mentions per year (post-explode), rather than per-respondent, to better reflect tool presence across developer stacks
 
 --- 
 
@@ -133,6 +135,7 @@ This prevented double-counting and ensured accurate year-over-year comparisons.
 
 ## ✨ Recent Additions
 
+- ✅ 📣 Project findings shared in a public [LinkedIn post](https://www.linkedin.com/posts/syifa-alia-balqis_dataanalytics-programmingtrends-languagetrends-activity-7343273416835088384-srW6?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADnQ7pMBVWGhjXpj9_dswWCCHQQgDVd7MLo)
 - ✅ Added `language_insights_report.md` as the main analyst report (migrated from Notebook 3)
 - ✅ Exported charts as high-resolution PNGs for GitHub and reporting
 - ✅ Summarised top language trends, including Python, SQL, and R movements
