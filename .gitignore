@@ -5,5 +5,5 @@ data/raw/*.zip
 data/raw/*.7z
 notebook/.ipynb_checkpoints/
 
-#ignore media_linkedin folder
-media_linkedin/
+# Ignore media used for LinkedIn post exports
+linkedin_media/
