@@ -24,7 +24,8 @@ This project explores the usage trends of programming languages over time using 
 - [language_insights_report.md](language_insights_report.md) – Final report with key findings and chart visuals  
 - [data/](data/) – Dataset files  
   - *(Raw dataset excluded from repo — see License section)*  
-  - [`all_languages_2018_2024_cleaned_2025-06-14.xls`](data/cleaned/all_languages_2018_2024_cleaned_2025-06-14.xls) ← Cleaned dataset  
+  - [`all_languages_2018_2024_cleaned_2025-06-14.xls`](data/cleaned/all_languages_2018_2024_cleaned_2025-06-14.xls) ← Cleaned dataset
+  - [`all_languages_2018_2024_cleaned_normalized_2025-06-25_12-29-05.xls`](data/cleaned/all_languages_2018_2024_cleaned_normalized_2025-06-25_12-29-05.xls) ← Cleaned dataset + Cleaned + **normalized naming** for dashboard perposes  
 - [chart/](chart/) – Exported visuals from Jupyter Notebook (Chart 01–09 PNGs)  
 - [notebook/](notebook/) – Analysis notebooks  
   - [`01_data_cleaning.ipynb`](notebook/01_data_cleaning.ipynb) ← Raw dataset wrangling and preparation  
@@ -44,7 +45,8 @@ root/
 ├── .gitignore
 ├── data/
 │   ├── cleaned/
-│   │   └── all_languages_2018_2024_cleaned_2025-06-14.xls ← Cleaned dataset
+│   │   ├── all_languages_2018_2024_cleaned_2025-06-14.xls ← Cleaned
+│   │   └── all_languages_2018_2024_cleaned_normalized_2025-06-25_12-29-05.xls ← Cleaned + normalized
 │   └── raw/ (excluded from repo)
 ├── chart/ ← Visual outputs from analysis notebooks
 │   └── *.png ← Exported figures (Chart 01–09)
